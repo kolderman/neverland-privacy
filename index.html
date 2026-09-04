@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    <title>Neverland Privacy Policy</title>
+    <style>
+      :root {
+        font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: #172039;
+        background: #f7f6fb;
+      }
+      body { margin: 0; }
+      main {
+        width: min(720px, calc(100% - 40px));
+        margin: 0 auto;
+        padding: 64px 0 80px;
+        line-height: 1.65;
+      }
+      h1 { color: #31206f; font-size: clamp(2rem, 8vw, 3.5rem); line-height: 1; margin-bottom: 0.5rem; }
+      h2 { color: #43328d; margin-top: 2rem; }
+      .effective { color: #60687b; }
+      a { color: #166f73; }
+      @media (prefers-color-scheme: dark) {
+        :root { color: #e9e9f4; background: #090c20; }
+        h1 { color: #d7c7ff; }
+        h2 { color: #c2b4f1; }
+        .effective { color: #aab0c4; }
+        a { color: #7ad4d2; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Neverland Privacy Policy</h1>
+      <p class="effective"><strong>Updated:</strong> September 4, 2026 · Overhaul release policy</p>
+      <p>Neverland is a private, personal trip-planning app maintained by Michael Burley. It is not an advertising-supported service and is not offered as a public social network or commercial travel service.</p>
+
+      <h2>Data Neverland handles</h2>
+      <p>Neverland stores trip information entered into the app, which may include itinerary details, reservation references, dining plans, budgets, packing items, deadlines, preferences, notes, wait-time logs, and selected memories and photos. Authentication credentials and device preferences are stored separately from the shared trip document.</p>
+      <p>The iPhone app keeps an offline copy on the device. When synchronization is enabled, trip data is sent over an encrypted connection to Michael Burley's private PocketBase server. Neverland does not sell personal information, use it for advertising, or share it with data brokers.</p>
+
+      <h2>Imports, documents, and photos</h2>
+      <p>Files and text explicitly shared with Neverland are saved locally for review. PDF text extraction and image text recognition happen on the device. Imported documents and selected photos are stored separately from the trip document; saved attachment records can be backed up to authenticated storage on the same private server. The app distinguishes local files from backed-up files.</p>
+      <p>Photo selection uses Apple's system photo picker. Neverland receives the photos you select, without requesting access to your entire library. Removing a document or photo reference from a trip does not guarantee that every retained backup copy has been erased.</p>
+
+      <h2>Optional AI assistance</h2>
+      <p>After an explicit request, the private server sends the relevant day schedule, planning preferences, and your request to OpenAI for concierge assistance. Confirmation numbers, payment fields, document contents, and photo originals are excluded from the automatic planning context. Do not include private details in the free-text request or activity titles.</p>
+      <p>Optional import interpretation sends only the venue, date, time, and party fields shown for review. It does not send the original document or image. AI responses remain proposals or drafts that you review before saving. OpenAI processes these requests under its applicable API terms and data policies. The private server retains usage and request records to enforce the shared $30 calendar-month allowance and prevent duplicate charges.</p>
+
+      <h2>Location, maps, weather, and reminders</h2>
+      <p>Location is requested only when you choose to use your current location in the foreground. It helps compare nearby saved places and is not added to the shared trip document or sent to the concierge. You can select a place manually instead. MapKit and WeatherKit requests use Apple's services; weather requests use the selected destination coordinates. Detailed navigation opens the selected mapping service. Offline place details do not include a promise of offline map tiles.</p>
+      <p>Notifications require permission and are scheduled locally from saved commitments and deadlines. The next-commitment widget and wait-timer Live Activity may display trip information on the Home Screen or Lock Screen. Manage their visibility through iPhone settings.</p>
+
+      <h2>Sharing and backups</h2>
+      <p>Sharing a day or recap opens a preview and Apple's share sheet. Structured confirmation and financial fields and original photos are excluded from these summaries. Review any free-text titles or notes before sharing. No public trip link is created. A complete backup intentionally includes private trip records and attachment files; keep the exported file private.</p>
+
+      <h2>Live information providers</h2>
+      <p>Neverland may request park operating hours and attraction wait information from ThemeParks.wiki and Queue-Times.com. Those providers receive the network information normally included in an HTTPS request, such as the requesting IP address and user agent. Neverland does not send reservation details, confirmation numbers, or the shared trip document to those providers.</p>
+
+      <h2>Apple and TestFlight</h2>
+      <p>Private beta builds may be distributed through Apple's TestFlight service. Apple may process installation, session, crash, and tester-feedback information under Apple's own terms and privacy policy. Neverland does not add a third-party advertising or analytics SDK.</p>
+
+      <h2>Security and retention</h2>
+      <p>Neverland stores its PocketBase credential in the iOS Keychain and limits authenticated requests to the server origin associated with that credential. Offline trip data remains on the device until the app data is removed. Synced trip data remains on the private server until it is deleted or restored from backup by the server owner.</p>
+
+      <h2>Choices and deletion</h2>
+      <p>The app provides backup/export and local reset controls. Server data can be deleted by the server owner. Removing the app deletes its ordinary on-device files; Keychain items may require sign-out or explicit credential removal.</p>
+
+      <h2>Children</h2>
+      <p>Neverland is a private travel-planning utility and is not directed to children under 13.</p>
+
+      <h2>Contact</h2>
+      <p>Questions about this policy can be sent to <a href="mailto:mfburley@me.com">mfburley@me.com</a>.</p>
+
+      <h2>Policy changes</h2>
+      <p>Material changes will be reflected by updating this page and its effective date before a new distributed build is released.</p>
+    </main>
+  </body>
+</html>
